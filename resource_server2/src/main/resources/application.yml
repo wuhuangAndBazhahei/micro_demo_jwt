@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: resource-server2
+server:
+  port: 9012
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:123456@localhost:7001/eureka/ #admin:123456@
+  instance:
+    prefer-ip-address: true
